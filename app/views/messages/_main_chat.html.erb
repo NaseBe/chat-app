@@ -10,17 +10,7 @@
 </div>
 
 <div class="middle-chat">
-  <div class="messages">
-    <div class="message-box">
-      <div class="user-date">
-        <div class="message-user">Sam</div>
-        <div class="message-date">2020/3/31(Wed) 12:05:00</div>
-      </div>
-      <div class="lower-message">
-        <div class="message-content">Hi</div>
-      </div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
